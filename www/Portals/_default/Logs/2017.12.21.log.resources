@@ -1,0 +1,16 @@
+2017-12-21 00:03:49.072-08:00 [SVR-DEV-WEB][D:2][T:27][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Util.IsFileValid(InstallFile file, String packageWhiteList)
+   at DotNetNuke.Services.Installer.InstallerInfo.<get_HasValidFiles>b__14_0(InstallFile file)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DotNetNuke.Services.Installer.InstallerInfo.get_HasValidFiles()
+   at Dnn.PersonaBar.Extensions.Components.InstallController.ParsePackage(PortalSettings portalSettings, UserInfo user, String filePath, Stream stream)
+   at Dnn.PersonaBar.Extensions.Services.ExtensionsController.<>c__DisplayClass39_1.<UploadFileAction>b__1(Object <state>)
+   at System.Web.Util.SynchronizationHelper.SafeWrapCallback(Action action)
+2017-12-21 00:04:14.438-08:00 [SVR-DEV-WEB][D:2][T:11][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Services.Installer.Util.IsFileValid(InstallFile file, String packageWhiteList)
+   at DotNetNuke.Services.Installer.InstallerInfo.<get_HasValidFiles>b__14_0(InstallFile file)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DotNetNuke.Services.Installer.InstallerInfo.get_HasValidFiles()
+   at Dnn.PersonaBar.Extensions.Components.InstallController.ParsePackage(PortalSettings portalSettings, UserInfo user, String filePath, Stream stream)
+   at Dnn.PersonaBar.Extensions.Services.ExtensionsController.<>c__DisplayClass39_1.<UploadFileAction>b__1(Object <state>)
+   at System.Web.Util.SynchronizationHelper.SafeWrapCallback(Action action)

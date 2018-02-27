@@ -1,0 +1,778 @@
+2018-01-22 00:24:50.542-08:00 [SVR-DEV-WEB][D:2][T:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.Page_Load(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 15
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 00:24:50.588-08:00 [SVR-DEV-WEB][D:2][T:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.Page_Load(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 15
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 00:57:43.133-08:00 [SVR-DEV-WEB][D:4][T:73][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpException (0x80004005): 'HtmlSelect' cannot have children of type 'Repeater'.
+   at System.Web.UI.HtmlControls.HtmlSelect.AddParsedSubObject(Object obj)
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlslPhotoList()
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlTree(desktopmodules_hydros_view_updateassets_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2018-01-22 00:57:44.709-08:00 [SVR-DEV-WEB][D:4][T:73][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error:  is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): 'HtmlSelect' cannot have children of type 'Repeater'.
+   at System.Web.UI.HtmlControls.HtmlSelect.AddParsedSubObject(Object obj)
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlslPhotoList()
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlTree(desktopmodules_hydros_view_updateassets_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2018-01-22 01:00:26.089-08:00 [SVR-DEV-WEB][D:5][T:25][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.InvalidOperationException: Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event.
+   at System.Web.UI.ControlBuilder.AddBoundProperty(String filter, String name, String expressionPrefix, String expression, ExpressionBuilder expressionBuilder, Object parsedExpressionData, Boolean generated, String fieldName, String formatString, Boolean twoWayBound, Boolean encode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttribute(String filter, String attribname, String attribvalue, Boolean mainDirectiveMode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2018-01-22 01:00:26.167-08:00 [SVR-DEV-WEB][D:5][T:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error:  is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.InvalidOperationException: Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event.
+   at System.Web.UI.ControlBuilder.AddBoundProperty(String filter, String name, String expressionPrefix, String expression, ExpressionBuilder expressionBuilder, Object parsedExpressionData, Boolean generated, String fieldName, String formatString, Boolean twoWayBound, Boolean encode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttribute(String filter, String attribname, String attribvalue, Boolean mainDirectiveMode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2018-01-22 01:01:41.796-08:00 [SVR-DEV-WEB][D:5][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:41.811-08:00 [SVR-DEV-WEB][D:5][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.112-08:00 [SVR-DEV-WEB][D:5][T:52][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.112-08:00 [SVR-DEV-WEB][D:5][T:52][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.471-08:00 [SVR-DEV-WEB][D:5][T:72][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.486-08:00 [SVR-DEV-WEB][D:5][T:72][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.658-08:00 [SVR-DEV-WEB][D:5][T:75][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.658-08:00 [SVR-DEV-WEB][D:5][T:75][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.814-08:00 [SVR-DEV-WEB][D:5][T:74][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.814-08:00 [SVR-DEV-WEB][D:5][T:74][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.970-08:00 [SVR-DEV-WEB][D:5][T:70][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:49.970-08:00 [SVR-DEV-WEB][D:5][T:70][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:50.126-08:00 [SVR-DEV-WEB][D:5][T:60][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:50.126-08:00 [SVR-DEV-WEB][D:5][T:60][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:50.282-08:00 [SVR-DEV-WEB][D:5][T:78][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:50.297-08:00 [SVR-DEV-WEB][D:5][T:78][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:50.453-08:00 [SVR-DEV-WEB][D:5][T:76][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:50.469-08:00 [SVR-DEV-WEB][D:5][T:76][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:51.733-08:00 [SVR-DEV-WEB][D:5][T:52][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:51.733-08:00 [SVR-DEV-WEB][D:5][T:52][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:51.904-08:00 [SVR-DEV-WEB][D:5][T:72][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:51.904-08:00 [SVR-DEV-WEB][D:5][T:72][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:52.091-08:00 [SVR-DEV-WEB][D:5][T:75][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:52.091-08:00 [SVR-DEV-WEB][D:5][T:75][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:52.232-08:00 [SVR-DEV-WEB][D:5][T:74][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:52.232-08:00 [SVR-DEV-WEB][D:5][T:74][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.026-08:00 [SVR-DEV-WEB][D:5][T:70][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.026-08:00 [SVR-DEV-WEB][D:5][T:70][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.260-08:00 [SVR-DEV-WEB][D:5][T:71][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.275-08:00 [SVR-DEV-WEB][D:5][T:71][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.431-08:00 [SVR-DEV-WEB][D:5][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.431-08:00 [SVR-DEV-WEB][D:5][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.603-08:00 [SVR-DEV-WEB][D:5][T:51][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.603-08:00 [SVR-DEV-WEB][D:5][T:51][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.759-08:00 [SVR-DEV-WEB][D:5][T:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.759-08:00 [SVR-DEV-WEB][D:5][T:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.931-08:00 [SVR-DEV-WEB][D:5][T:72][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 01:01:54.931-08:00 [SVR-DEV-WEB][D:5][T:72][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Object+reference+not+set+to+an+instance+of+an+object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hydros.View_UpdateAssets.btUpdate_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 28
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 18:48:09.423-08:00 [SVR-DEV-WEB][D:4][T:38][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.InvalidOperationException: Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event.
+   at System.Web.UI.ControlBuilder.AddBoundProperty(String filter, String name, String expressionPrefix, String expression, ExpressionBuilder expressionBuilder, Object parsedExpressionData, Boolean generated, String fieldName, String formatString, Boolean twoWayBound, Boolean encode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttribute(String filter, String attribname, String attribvalue, Boolean mainDirectiveMode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2018-01-22 18:48:09.501-08:00 [SVR-DEV-WEB][D:4][T:38][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error:  is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.Web.HttpParseException (0x80004005): Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event. ---> System.InvalidOperationException: Databinding expressions are only supported on objects that have a DataBinding event. System.Web.UI.WebControls.ListItem does not have a DataBinding event.
+   at System.Web.UI.ControlBuilder.AddBoundProperty(String filter, String name, String expressionPrefix, String expression, ExpressionBuilder expressionBuilder, Object parsedExpressionData, Boolean generated, String fieldName, String formatString, Boolean twoWayBound, Boolean encode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttribute(String filter, String attribname, String attribvalue, Boolean mainDirectiveMode, Int32 line, Int32 column)
+   at System.Web.UI.ControlBuilder.PreprocessAttributes(ParsedAttributeCollection attribs)
+   at System.Web.UI.ControlBuilder.Init(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateBuilderFromType(TemplateParser parser, ControlBuilder parentBuilder, Type type, String tagName, String id, IDictionary attribs, Int32 line, String sourceFileName)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2018-01-22 18:50:46.514-08:00 [SVR-DEV-WEB][D:5][T:26][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpException (0x80004005): 'HtmlSelect' cannot have children of type 'Repeater'.
+   at System.Web.UI.HtmlControls.HtmlSelect.AddParsedSubObject(Object obj)
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlslPhotoList()
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlTree(desktopmodules_hydros_view_updateassets_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2018-01-22 18:50:48.027-08:00 [SVR-DEV-WEB][D:5][T:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error:  is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpException (0x80004005): 'HtmlSelect' cannot have children of type 'Repeater'.
+   at System.Web.UI.HtmlControls.HtmlSelect.AddParsedSubObject(Object obj)
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlslPhotoList()
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__BuildControlTree(desktopmodules_hydros_view_updateassets_ascx __ctrl)
+   at System.Web.UI.TemplateControl.LoadControl(IWebObjectFactory objectFactory, VirtualPath virtualPath, Type t, Object[] parameters)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2018-01-22 19:46:53.830-08:00 [SVR-DEV-WEB][D:2][T:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2018-01-22 19:46:53.877-08:00 [SVR-DEV-WEB][D:2][T:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2018-01-22 23:22:33.073-08:00 [SVR-DEV-WEB][D:8][T:37][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx(17): error CS0103: The name 'assetID' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+2018-01-22 23:22:33.151-08:00 [SVR-DEV-WEB][D:8][T:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="Error:  is currently unavailable." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx(17): error CS0103: The name 'assetID' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.WebFormsModuleControlFactory.CreateModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+2018-01-22 23:46:07.931-08:00 [SVR-DEV-WEB][D:2][T:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:46:07.978-08:00 [SVR-DEV-WEB][D:2][T:6][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Invalid+cast+from+%27System.String%27+to+%27Hydros.Model.AssetInfo%27.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:46:12.533-08:00 [SVR-DEV-WEB][D:2][T:11][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:46:12.533-08:00 [SVR-DEV-WEB][D:2][T:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Invalid+cast+from+%27System.String%27+to+%27Hydros.Model.AssetInfo%27.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:47:49.565-08:00 [SVR-DEV-WEB][D:2][T:10][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:47:49.565-08:00 [SVR-DEV-WEB][D:2][T:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Invalid+cast+from+%27System.String%27+to+%27Hydros.Model.AssetInfo%27.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:48:57.908-08:00 [SVR-DEV-WEB][D:2][T:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:48:57.908-08:00 [SVR-DEV-WEB][D:2][T:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Invalid+cast+from+%27System.String%27+to+%27Hydros.Model.AssetInfo%27.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:49:03.384-08:00 [SVR-DEV-WEB][D:2][T:7][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-22 23:49:03.384-08:00 [SVR-DEV-WEB][D:2][T:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Invalid+cast+from+%27System.String%27+to+%27Hydros.Model.AssetInfo%27.
+System.InvalidCastException: Invalid cast from 'System.String' to 'Hydros.Model.AssetInfo'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Assets_Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 81
+   at Hydros.Model.AssetController.Get(String AssetID) in E:\Development\DNN\www\DesktopModules\Hydros\Model\AssetController.cs:line 30
+   at Hydros.View_UpdateAssets.returnObj() in E:\Development\DNN\www\DesktopModules\Hydros\View_UpdateAssets.ascx.cs:line 29
+   at ASP.desktopmodules_hydros_view_updateassets_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.UpdatePanel.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.UpdatePanel.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.PageRequestManager.RenderFormCallback(HtmlTextWriter writer, Control containerControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

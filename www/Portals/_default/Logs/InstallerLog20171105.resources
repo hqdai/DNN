@@ -1,0 +1,238 @@
+11/06/2017 06:56:47 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Folder Creation CheckFile Creation CheckFile Deletion CheckFolder Deletion Check
+11/06/2017 06:56:48 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Checking IIS configuration
+11/06/2017 06:56:48 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Database Script DotNetNuke.Schema
+11/06/2017 06:56:48 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\DotNetNuke.Schema.SqlDataProvider
+11/06/2017 06:56:53 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\DotNetNuke.Schema.SqlDataProvider
+11/06/2017 06:56:53 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Database Script DotNetNuke.Data
+11/06/2017 06:56:53 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\DotNetNuke.Data.SqlDataProvider
+11/06/2017 06:57:04 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\DotNetNuke.Data.SqlDataProvider
+11/06/2017 06:57:04 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Membership Database Scripts
+11/06/2017 06:57:04 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallMemberRoleProvider
+11/06/2017 06:57:07 [INFO] DotNetNuke.Services.Upgrade.Upgrade End InstallMemberRoleProvider
+11/06/2017 06:57:07 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 08.00.04.01
+11/06/2017 06:57:07 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+11/06/2017 06:57:07 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\08.00.04.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 09.00.00
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 09.00.00.01
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.00.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 09.00.01
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.01.SqlDataProvider
+11/06/2017 06:57:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.00.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 09.01.00
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.00.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.00.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.00.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.00.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Applying Upgrade Script 09.01.01
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:E:\Development\DNN\www\Providers\DataProviders\SqlDataProvider\09.01.01.SqlDataProvider
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 8.0.4.1
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 8.0.4
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 9.0.0
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.0.0
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 9.0.0.1
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.0.0
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 9.0.1
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.0.1
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 9.1.0
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.1.0
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Host Settings
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Site Management
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Schedule
+11/06/2017 06:57:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Superuser Accounts
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Extensions
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:Device Detection Management
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//Extensions
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//SiteSettings
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//SecurityRoles
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//Taxonomy
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//SiteRedirectionManagement
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//DevicePreviewManagement
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//SearchAdmin
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application to 9.1.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.1.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 8.0.4.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:08.00.04.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:8.0.4
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:8.0.4
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:08.00.04.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 9.0.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.00.00
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.0.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.0.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.00.00
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 9.0.0.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.00.00.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.0.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.0.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.00.00.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 9.0.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.00.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.0.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Target File dotnetnuke.config doesn't exist, ignore the merge process
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.0.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.00.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 9.1.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.01.00
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.1.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.1.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.01.00
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Updating Config for 9.1.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.01.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.1.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.1.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.01.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 8.0.4.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:08.00.04.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 9.0.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.00.00
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 9.0.0.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.00.00.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 9.0.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.00.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 9.1.0
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.01.00
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Deleting Older Files for 9.1.1
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.01.01
+11/06/2017 06:57:10 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application
+11/06/2017 06:57:11 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DDRMenu_09.01.01_Install.zip
+11/06/2017 06:57:11 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DDRMenu_09.01.01_Install.zip
+11/06/2017 06:57:11 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:11 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - Dnn.EditBar.UI_01.04.00_Install.zip
+11/06/2017 06:57:11 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.EditBar.UI_01.04.00_Install.zip
+11/06/2017 06:57:11 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - Dnn.PersonaBar.UI_01.04.00_Install.zip
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.UI_01.04.00_Install.zip
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+11/06/2017 06:57:12 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - DNNCE_01_Web.Deprecated_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_01_Web.Deprecated_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Console_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_Console_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_CoreMessaging_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_CoreMessaging_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_DigitalAssetsManagement_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_DigitalAssetsManagement_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_HtmlEditorManager_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_HtmlEditorManager_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_HTML_09.01.01_Install.zip
+11/06/2017 06:57:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_HTML_09.01.01_Install.zip
+11/06/2017 06:57:14 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_Journal_09.01.01_Install.zip
+11/06/2017 06:57:14 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_Journal_09.01.01_Install.zip
+11/06/2017 06:57:14 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_MemberDirectory_09.01.01_Install.zip
+11/06/2017 06:57:14 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_MemberDirectory_09.01.01_Install.zip
+11/06/2017 06:57:14 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_ModuleCreator_09.01.01_Install.zip
+11/06/2017 06:57:14 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_ModuleCreator_09.01.01_Install.zip
+11/06/2017 06:57:15 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_RazorHost_09.01.01_Install.zip
+11/06/2017 06:57:15 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_RazorHost_09.01.01_Install.zip
+11/06/2017 06:57:15 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - DNNCE_SiteExportImport_09.01.01_Install.zip
+11/06/2017 06:57:15 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_SiteExportImport_09.01.01_Install.zip
+11/06/2017 06:57:16 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Module - DNNCE_SocialGroups_09.01.01_Install.zip
+11/06/2017 06:57:16 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\DNNCE_SocialGroups_09.01.01_Install.zip
+11/06/2017 06:57:16 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Library - Telerik_09.01.01_Install.zip
+11/06/2017 06:57:16 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Telerik_09.01.01_Install.zip
+11/06/2017 06:57:17 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:17 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:17 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:17 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Skin - Skin_Xcillion_01.00.00_Install.zip
+11/06/2017 06:57:17 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Skin\Skin_Xcillion_01.00.00_Install.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - jQuery.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\JavaScriptLibrary\jQuery.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - Knockout.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\JavaScriptLibrary\Knockout.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - Selectize.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\JavaScriptLibrary\Selectize.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Provider - DNNConnect.CKEditorProvider_01.00.03_Install.zip
+11/06/2017 06:57:18 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Provider\DNNConnect.CKEditorProvider_01.00.03_Install.zip
+11/06/2017 06:57:20 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:20 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing Provider - FiftyOneClientCapabilityProvider_09.01.01_Install.zip
+11/06/2017 06:57:20 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Provider\FiftyOneClientCapabilityProvider_09.01.01_Install.zip
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateAttribute:attributeName=defaultProvider
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.AdminLogs_01.04.00_Install.zip
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.AdminLogs_01.04.00_Install.zip
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.ConfigConsole_01.04.00_Install.zip
+11/06/2017 06:57:21 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.ConfigConsole_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.CssEditor_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.CssEditor_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Extensions_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Extensions_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Licensing_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Licensing_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Recyclebin_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Recyclebin_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Roles_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Roles_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Security_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Security_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Seo_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Seo_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Servers_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Servers_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.SiteSettings_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.SiteSettings_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Sites_01.04.00_Install.zip
+11/06/2017 06:57:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Sites_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.SqlConsole_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.SqlConsole_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.TaskScheduler_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.TaskScheduler_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Themes_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Themes_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Users_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Users_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Vocabularies_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Vocabularies_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - jQueryMigrate.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\JavaScriptLibrary\jQueryMigrate.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - jQueryUI.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\JavaScriptLibrary\jQueryUI.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing JavaScript_Library - KnockoutMapping.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\JavaScriptLibrary\KnockoutMapping.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.Pages_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.Pages_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Installing PersonaBar - Dnn.PersonaBar.SiteImportExport_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:E:\Development\DNN\www\Install\Module\Dnn.PersonaBar.SiteImportExport_01.04.00_Install.zip
+11/06/2017 06:57:23 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Initializing Host Settings
+11/06/2017 06:57:25 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Creating Site [DNN]
+11/06/2017 06:57:25 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start CreateUserInfo:host
+11/06/2017 06:57:37 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Create Super User
+11/06/2017 06:57:37 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Creating Super Userhost
+11/06/2017 06:57:57 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:File Management
+11/06/2017 06:57:57 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:File Management
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:116
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:116
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddAdminPage:File Management
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPagePermission:View
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPagePermission:Edit
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:File Management
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:116
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:116
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveHostPage:File Manager
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveAdminPages://Admin//FileManager
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddHostPage:HTML Editor Manager
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddPage:HTML Editor Manager
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start RemoveModule:RadEditor Manager
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start AddModuleToPage:117
+11/06/2017 06:58:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End AddModuleToPage:117

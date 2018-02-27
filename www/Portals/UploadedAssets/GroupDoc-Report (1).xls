@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+
+</style>
+<!--[if gte mso 9]>
+
+<![endif]-->
+</head>
+<body>
+<table rules="all" border="1" id="dnn_ctr745_View_GroupDocs_radgrid_GroupDocs_ctl00" style="width:100%;table-layout:auto;empty-cells:show;">
+	<colgroup>
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+		<col  />
+	</colgroup>
+<thead>
+		<tr>
+			<th scope="col">DocID</th><th scope="col">Group</th><th scope="col">DocURL</th><th scope="col">DocType</th><th scope="col">DateUpdate</th>
+		</tr><tr>
+			<td>&nbsp;</td><td style="white-space:nowrap;">13800</td><td style="white-space:nowrap;"></td><td style="white-space:nowrap;">
+                    
+                    <script type="text/javascript">
+                        function IsDroppedSelectedIndexChanged(sender, args) {
+                            var tableView = $find("dnn_ctr745_View_GroupDocs_radgrid_GroupDocs_ctl00");
+                            tableView.filter("DocType", args.get_item().get_value(), "EqualTo");
+                        }
+                    </script>
+                </td><td>&nbsp;</td>
+		</tr>
+	</thead><tbody>
+	<tr>
+		<td style="mso-number-format:0;">1</td><td>13800</td><td>
+                    <a href='http://ipad.magnussen.com/Portals/Documents/StudySheets/13800 - Sedona.pdf'>Click to view File</a>
+                </td><td>
+                    StudySheets
+                </td><td>4/5/2016 2:49:19 AM</td>
+	</tr><tr>
+		<td style="mso-number-format:0;">2</td><td>13800</td><td>
+                    <a href='http://ipad.magnussen.com/Portals/Documents/AssemblySheet/13800-Assembly.pdf'>Click to view File</a>
+                </td><td>
+                    AssemblyInstructions
+                </td><td>7/31/2015 3:37:01 AM</td>
+	</tr><tr>
+		<td style="mso-number-format:0;">3</td><td>13800</td><td>
+                    <a href='http://ipad.magnussen.com/Portals/Documents/ProductLiterature/13800-Literature.pdf'>Click to view File</a>
+                </td><td>
+                    ProductLiterature
+                </td><td>7/31/2015 3:37:01 AM</td>
+	</tr>
+	</tbody>
+
+</table></body></html>

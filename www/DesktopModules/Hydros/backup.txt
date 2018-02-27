@@ -1,0 +1,67 @@
+<script>
+    $(document).ready(function () {
+        $("select").imagepicker({
+            hide_select: true
+        });
+
+        $("#btUpdatePrimary").click(function (e) {
+
+            //Create object Asset
+            var objAsset = new Object();
+            objAsset.AssetID = $("#slPhotoList :selected").text();
+            objAsset.ItemID = "<%= ItemID %>";
+            objAsset.AssetType = "<%= AssetType %>";
+            objAsset.ItemType = "<%= ItemType %>";
+            objAsset.IsDeleted = "1";
+            objAsset.DateAdded = "\/Date(1516260114733)\/";
+            objAsset.DateModified = "\/Date(1516260114733)\/";
+            objAsset.CreatedBy = "1";
+            objAsset.ModifiedBy = "1";
+            objAsset.IsPrimary = "0";
+            objAsset.Order = "2";
+
+            //Convert to json
+            var datastring = JSON.stringify(objAsset);
+
+            //Call API update
+            $.ajax({
+                type: 'POST',
+                url: '/DesktopModules/Hydros/Api/Asset/UpdatePrimary',
+                data: datastring,
+                success: function (data) {
+                    
+                    if(data = 201)
+                    {
+                        e.preventDefault();
+                        alert("Successful!");
+                        dnnModal.closePopUp();
+                    }
+                    else
+                    {
+                        alert("Fail!");
+                    }
+                },
+                contentType: "application/json",
+                dataType: 'json'
+            });
+        });
+    });
+</script>
+
+
+<%--<h2>Select primary photo</h2>--%>
+
+<%--<asp:Repeater ID="rptPhotoList" runat="server">
+    <HeaderTemplate>
+        <select class="image-picker show-html" id="slPhotoList">
+    </HeaderTemplate>
+    <ItemTemplate>
+        <option data-img-width="200px" data-img-src='<%# DataBinder.Eval(Container.DataItem, "URLDesktopThumb") %>' data-img-alt='<%# DataBinder.Eval(Container.DataItem, "AssetID") %>' value='<%# DataBinder.Eval(Container.DataItem, "AssetID") %>'><%# DataBinder.Eval(Container.DataItem, "AssetID") %></option>
+    </ItemTemplate>
+    <FooterTemplate>
+        </select>
+    </FooterTemplate>
+</asp:Repeater>
+<asp:HiddenField ID="hdfAssetID" runat="server" ClientIDMode="Static" />
+
+<button id="btUpdatePrimary">Update Primary</button> | <button id="btDeleteImage">Delete Image</button>--%>

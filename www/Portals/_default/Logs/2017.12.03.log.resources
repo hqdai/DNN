@@ -1,0 +1,24 @@
+2017-12-03 19:21:20.540-08:00 [SVR-DEV-WEB][D:3][T:17][ERROR] DotNetNuke.Web.Api.Internal.ServicesRoutingManager - AngularModule.WebApi.Routemapper.RegisterRoutes threw an exception.  A route named 'AngularModule-default-0' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.RouteCollectionExtensions.MapHttpRoute(RouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, Object constraints, String[] namespaces)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, String[] namespaces)
+   at AngularModule.WebApi.Routemapper.RegisterRoutes(IMapRoute routeManager) in E:\Development\DNN\www\DesktopModules\AngularModule\WebApi\RouteMapper.cs:line 18
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.LocateServicesAndMapRoutes()
+2017-12-03 19:24:37.336-08:00 [SVR-DEV-WEB][D:4][T:17][ERROR] DotNetNuke.Web.Api.Internal.ServicesRoutingManager - AngularModule.WebApi.Routemapper.RegisterRoutes threw an exception.  A route named 'AngularModule-default-0' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.RouteCollectionExtensions.MapHttpRoute(RouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, Object constraints, String[] namespaces)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, String[] namespaces)
+   at AngularModule.WebApi.Routemapper.RegisterRoutes(IMapRoute routeManager) in E:\Development\DNN\www\DesktopModules\AngularModule\WebApi\RouteMapper.cs:line 18
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.LocateServicesAndMapRoutes()
+2017-12-03 19:25:09.347-08:00 [SVR-DEV-WEB][D:5][T:17][ERROR] DotNetNuke.Web.Api.Internal.ServicesRoutingManager - AngularModule.WebApi.Routemapper.RegisterRoutes threw an exception.  A route named 'AngularModule-default-0' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.RouteCollectionExtensions.MapHttpRoute(RouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, Object constraints, String[] namespaces)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, String[] namespaces)
+   at AngularModule.WebApi.Routemapper.RegisterRoutes(IMapRoute routeManager) in E:\Development\DNN\www\DesktopModules\AngularModule\WebApi\RouteMapper.cs:line 18
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.LocateServicesAndMapRoutes()

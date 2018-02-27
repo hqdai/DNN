@@ -1,0 +1,84 @@
+﻿#DropZone {
+    width: 100%;
+    height: 200px;
+    background-color: #3379b7;
+    border-color: #CCCCCC;
+    color: #767676;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    margin: 0 0 5px 0;
+    border-radius:10px;
+}
+ 
+.demo-container .RadAsyncUpload {
+    text-align: center;
+    margin-left: 0;
+}
+ 
+.demo-container .RadAsyncUpload .ruFileWrap  {
+    text-align: left;
+}
+ 
+.demo-container .RadUpload .ruUploadProgress {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    width:200px;
+}
+ 
+.demo-container {
+    background: #ccc;
+    padding: 10px;
+    border: #868686 3px dashed;
+    border-radius: 10px;
+}
+ 
+html .RadUpload .ruFileWrap {
+    position: relative;
+}
+
+.DropArea
+{
+    position: relative;
+    padding: 15px;
+    border: dashed 3px #ccc;
+}
+
+/* Loader */
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.centered
+{
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+/* End Loader */

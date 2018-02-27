@@ -1,0 +1,770 @@
+2018-01-09 00:28:18.925-08:00 [SVR-DEV-WEB][D:2][T:11][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: No mapping exists from object type System.Uri to a known managed provider native type.
+   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)
+   at System.Data.SqlClient.SqlParameter.GetMetaTypeOnly()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:28:18.956-08:00 [SVR-DEV-WEB][D:2][T:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=No+mapping+exists+from+object+type+System.Uri+to+a+known+managed+provider+native+type.&content=0
+System.ArgumentException: No mapping exists from object type System.Uri to a known managed provider native type.
+   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)
+   at System.Data.SqlClient.SqlParameter.GetMetaTypeOnly()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:37:50.115-08:00 [SVR-DEV-WEB][D:3][T:35][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: No mapping exists from object type System.Uri to a known managed provider native type.
+   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)
+   at System.Data.SqlClient.SqlParameter.GetMetaTypeOnly()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:37:50.162-08:00 [SVR-DEV-WEB][D:3][T:35][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=No+mapping+exists+from+object+type+System.Uri+to+a+known+managed+provider+native+type.&content=0
+System.ArgumentException: No mapping exists from object type System.Uri to a known managed provider native type.
+   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)
+   at System.Data.SqlClient.SqlParameter.GetMetaTypeOnly()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:45:56.286-08:00 [SVR-DEV-WEB][D:4][T:47][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 57
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:45:56.333-08:00 [SVR-DEV-WEB][D:4][T:47][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=SqlDateTime+overflow.+Must+be+between+1%2f1%2f1753+12%3a00%3a00+AM+and+12%2f31%2f9999+11%3a59%3a59+PM.&content=0
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 57
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:12.516-08:00 [SVR-DEV-WEB][D:6][T:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 57
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:12.547-08:00 [SVR-DEV-WEB][D:6][T:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=SqlDateTime+overflow.+Must+be+between+1%2f1%2f1753+12%3a00%3a00+AM+and+12%2f31%2f9999+11%3a59%3a59+PM.&content=0
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 57
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:14.357-08:00 [SVR-DEV-WEB][D:6][T:44][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:14.357-08:00 [SVR-DEV-WEB][D:6][T:44][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:14.825-08:00 [SVR-DEV-WEB][D:6][T:47][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:14.825-08:00 [SVR-DEV-WEB][D:6][T:47][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.012-08:00 [SVR-DEV-WEB][D:6][T:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.027-08:00 [SVR-DEV-WEB][D:6][T:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.183-08:00 [SVR-DEV-WEB][D:6][T:44][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.183-08:00 [SVR-DEV-WEB][D:6][T:44][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.371-08:00 [SVR-DEV-WEB][D:6][T:36][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.371-08:00 [SVR-DEV-WEB][D:6][T:36][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.527-08:00 [SVR-DEV-WEB][D:6][T:38][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:15.527-08:00 [SVR-DEV-WEB][D:6][T:38][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.275-08:00 [SVR-DEV-WEB][D:6][T:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.275-08:00 [SVR-DEV-WEB][D:6][T:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.463-08:00 [SVR-DEV-WEB][D:6][T:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.463-08:00 [SVR-DEV-WEB][D:6][T:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.634-08:00 [SVR-DEV-WEB][D:6][T:44][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.634-08:00 [SVR-DEV-WEB][D:6][T:44][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.821-08:00 [SVR-DEV-WEB][D:6][T:50][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.821-08:00 [SVR-DEV-WEB][D:6][T:50][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.977-08:00 [SVR-DEV-WEB][D:6][T:43][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:16.977-08:00 [SVR-DEV-WEB][D:6][T:43][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:17.165-08:00 [SVR-DEV-WEB][D:6][T:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:17.165-08:00 [SVR-DEV-WEB][D:6][T:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:17.336-08:00 [SVR-DEV-WEB][D:6][T:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:17.336-08:00 [SVR-DEV-WEB][D:6][T:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:17.523-08:00 [SVR-DEV-WEB][D:6][T:44][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:17.523-08:00 [SVR-DEV-WEB][D:6][T:44][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.007-08:00 [SVR-DEV-WEB][D:6][T:50][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.007-08:00 [SVR-DEV-WEB][D:6][T:50][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.194-08:00 [SVR-DEV-WEB][D:6][T:43][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.210-08:00 [SVR-DEV-WEB][D:6][T:43][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.397-08:00 [SVR-DEV-WEB][D:6][T:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.397-08:00 [SVR-DEV-WEB][D:6][T:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.553-08:00 [SVR-DEV-WEB][D:6][T:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.553-08:00 [SVR-DEV-WEB][D:6][T:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.912-08:00 [SVR-DEV-WEB][D:6][T:44][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:18.927-08:00 [SVR-DEV-WEB][D:6][T:44][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.068-08:00 [SVR-DEV-WEB][D:6][T:50][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.068-08:00 [SVR-DEV-WEB][D:6][T:50][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.255-08:00 [SVR-DEV-WEB][D:6][T:43][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.255-08:00 [SVR-DEV-WEB][D:6][T:43][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.442-08:00 [SVR-DEV-WEB][D:6][T:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.442-08:00 [SVR-DEV-WEB][D:6][T:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.661-08:00 [SVR-DEV-WEB][D:6][T:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:55:19.661-08:00 [SVR-DEV-WEB][D:6][T:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Could+not+find+file+%27E%3a%5cDevelopment%5cDNN%5cwww%5cApp_Data%5cRadUploadTemp%5c151548811122321317925_1599762443377719_3742492795540369757_n.jpg%27.&content=0
+System.IO.FileNotFoundException: Could not find file 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'.
+File name: 'E:\Development\DNN\www\App_Data\RadUploadTemp\151548811122321317925_1599762443377719_3742492795540369757_n.jpg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at Telerik.Web.UI.AsyncUploadedFile.SaveAs(String fileName, Boolean overwrite)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 27
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:56:27.707-08:00 [SVR-DEV-WEB][D:6][T:50][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 57
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:56:27.723-08:00 [SVR-DEV-WEB][D:6][T:50][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=SqlDateTime+overflow.+Must+be+between+1%2f1%2f1753+12%3a00%3a00+AM+and+12%2f31%2f9999+11%3a59%3a59+PM.&content=0
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 57
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:59:58.306-08:00 [SVR-DEV-WEB][D:7][T:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: No mapping exists from object type System.Uri to a known managed provider native type.
+   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)
+   at System.Data.SqlClient.SqlParameter.GetMetaTypeOnly()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 00:59:58.353-08:00 [SVR-DEV-WEB][D:7][T:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=No+mapping+exists+from+object+type+System.Uri+to+a+known+managed+provider+native+type.&content=0
+System.ArgumentException: No mapping exists from object type System.Uri to a known managed provider native type.
+   at System.Data.SqlClient.MetaType.GetMetaTypeFromValue(Type dataType, Object value, Boolean inferLen, Boolean streamAllowed)
+   at System.Data.SqlClient.SqlParameter.GetMetaTypeOnly()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 18:08:54.266-08:00 [SVR-DEV-WEB][D:3][T:16][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:ea3d020c-fe46-4a66-8c31-a237d519edc4
+Error Number:102,State:1,Class:15
+2018-01-09 18:08:54.313-08:00 [SVR-DEV-WEB][D:3][T:16][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Incorrect+syntax+near+%27%2c%27.&content=0
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:ea3d020c-fe46-4a66-8c31-a237d519edc4
+Error Number:102,State:1,Class:15
+2018-01-09 18:37:54.092-08:00 [SVR-DEV-WEB][D:4][T:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Hydros_Cloudiary'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:45392256-e43d-44d2-91fb-032617c819ef
+Error Number:208,State:1,Class:16
+2018-01-09 18:37:54.139-08:00 [SVR-DEV-WEB][D:4][T:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Invalid+object+name+%27Hydros_Cloudiary%27.&content=0
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Hydros_Cloudiary'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at Hydros.Controller.DatabaseController.Hydros_Cloudinary_Add(CloudinaryInfo Info) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\DatabaseController.cs:line 57
+   at Hydros.Controller.CloudiaryController.UploadPhoto(String filePath) in E:\Development\DNN\www\DesktopModules\Hydros\Controller\CloudiaryController.cs:line 55
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 29
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:45392256-e43d-44d2-91fb-032617c819ef
+Error Number:208,State:1,Class:16
+2018-01-09 22:51:27.948-08:00 [SVR-DEV-WEB][D:2][T:10][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Telerik.Web.UI.RadGrid with ID='rg_Assets' was unable to find an embedded skin with the name 'Bootstrap'. Please, make sure that the skin name is spelled correctly and that you have added a reference to the Telerik.Web.UI.Skins.dll assembly in your project. If you want to use a custom skin, set EnableEmbeddedSkins=false.
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType, Boolean designTime)
+   at Telerik.Web.SkinRegistrar.RegisterCssReferences(ISkinnableControl _control)
+   at Telerik.Web.UI.RadCompositeDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadGrid.ControlPreRender()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-09 22:51:27.979-08:00 [SVR-DEV-WEB][D:2][T:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Telerik.Web.UI.RadGrid+with+ID%3d%27rg_Assets%27+was+unable+to+find+an+embedded+skin+with+the+name+%27Bootstrap%27.+Please%2c+make+sure+that+the+skin+name+is+spelled+correctly+and+that+you+have+added+a+reference+to+the+Telerik.Web.UI.Skins.dll+assembly+in+your+project.+If+you+want+to+use+a+custom+skin%2c+set+EnableEmbeddedSkins%3dfalse.&content=0
+System.InvalidOperationException: Telerik.Web.UI.RadGrid with ID='rg_Assets' was unable to find an embedded skin with the name 'Bootstrap'. Please, make sure that the skin name is spelled correctly and that you have added a reference to the Telerik.Web.UI.Skins.dll assembly in your project. If you want to use a custom skin, set EnableEmbeddedSkins=false.
+   at Telerik.Web.SkinRegistrar.GetEmbeddedSkinAttributes(ISkinnableControl control, Type controlType, Boolean designTime)
+   at Telerik.Web.SkinRegistrar.RegisterCssReferences(ISkinnableControl _control)
+   at Telerik.Web.UI.RadCompositeDataBoundControl.ControlPreRender()
+   at Telerik.Web.UI.RadGrid.ControlPreRender()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

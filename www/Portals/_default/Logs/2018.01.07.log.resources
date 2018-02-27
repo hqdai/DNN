@@ -1,0 +1,16 @@
+2018-01-07 22:43:51.043-08:00 [SVR-DEV-WEB][D:2][T:10][ERROR] DotNetNuke.Web.Api.Internal.ServicesRoutingManager - Hydros.WebApi.RouteMapper.RegisterRoutes threw an exception.  A route named 'Adam-default-0' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.RouteCollectionExtensions.MapHttpRoute(RouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, Object constraints, String[] namespaces)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, String[] namespaces)
+   at Hydros.WebApi.RouteMapper.RegisterRoutes(IMapRoute routeManager) in E:\Development\DNN\www\DesktopModules\Hydros\WebApi\RouteMapper.cs:line 17
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.LocateServicesAndMapRoutes()
+2018-01-07 23:14:14.968-08:00 [SVR-DEV-WEB][D:2][T:6][ERROR] DotNetNuke.Web.Api.Internal.ServicesRoutingManager - Hydros.WebApi.RouteMapper.RegisterRoutes threw an exception.  A route named 'Adam-default-0' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.RouteCollectionExtensions.MapHttpRoute(RouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, Object constraints, String[] namespaces)
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.MapHttpRoute(String moduleFolderName, String routeName, String url, Object defaults, String[] namespaces)
+   at Hydros.WebApi.RouteMapper.RegisterRoutes(IMapRoute routeManager) in E:\Development\DNN\www\DesktopModules\Hydros\WebApi\RouteMapper.cs:line 17
+   at DotNetNuke.Web.Api.Internal.ServicesRoutingManager.LocateServicesAndMapRoutes()

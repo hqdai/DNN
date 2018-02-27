@@ -1,0 +1,7 @@
+E:\Development\DNN\www\DesktopModules\AngularModule\obj\Debug\AngularModule.csprojResolveAssemblyReference.cache
+E:\Development\DNN\www\DesktopModules\AngularModule\obj\Debug\AngularModule.csproj.CoreCompileInputs.cache
+E:\Development\DNN\www\bin\AngularModule.dll
+E:\Development\DNN\www\bin\AngularModule.pdb
+E:\Development\DNN\www\DesktopModules\AngularModule\obj\Debug\AngularModule.dll
+E:\Development\DNN\www\DesktopModules\AngularModule\obj\Debug\AngularModule.pdb
+E:\Development\DNN\www\bin\AngularModule.dll.config

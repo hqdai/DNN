@@ -1,0 +1,192 @@
+2018-01-11 20:27:18.281-08:00 [SVR-DEV-WEB][D:8][T:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:18.328-08:00 [SVR-DEV-WEB][D:8][T:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:22.509-08:00 [SVR-DEV-WEB][D:8][T:30][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:22.509-08:00 [SVR-DEV-WEB][D:8][T:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:23.959-08:00 [SVR-DEV-WEB][D:8][T:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:23.959-08:00 [SVR-DEV-WEB][D:8][T:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:24.271-08:00 [SVR-DEV-WEB][D:8][T:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:24.271-08:00 [SVR-DEV-WEB][D:8][T:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:24.474-08:00 [SVR-DEV-WEB][D:8][T:46][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:24.474-08:00 [SVR-DEV-WEB][D:8][T:46][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:24.849-08:00 [SVR-DEV-WEB][D:8][T:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:24.849-08:00 [SVR-DEV-WEB][D:8][T:31][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:25.036-08:00 [SVR-DEV-WEB][D:8][T:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:25.051-08:00 [SVR-DEV-WEB][D:8][T:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:25.223-08:00 [SVR-DEV-WEB][D:8][T:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:25.223-08:00 [SVR-DEV-WEB][D:8][T:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:25.410-08:00 [SVR-DEV-WEB][D:8][T:46][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:25.410-08:00 [SVR-DEV-WEB][D:8][T:46][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:32.789-08:00 [SVR-DEV-WEB][D:8][T:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:32.805-08:00 [SVR-DEV-WEB][D:8][T:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:33.366-08:00 [SVR-DEV-WEB][D:8][T:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:33.366-08:00 [SVR-DEV-WEB][D:8][T:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:33.569-08:00 [SVR-DEV-WEB][D:8][T:30][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2018-01-11 20:27:33.569-08:00 [SVR-DEV-WEB][D:8][T:30][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Value+cannot+be+null.%0d%0aParameter+name%3a+url
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Hydros.View_UploadAssets.btUpload_Click(Object sender, EventArgs e) in E:\Development\DNN\www\DesktopModules\Hydros\View_UploadAssets.ascx.cs:line 19
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
